@@ -3,7 +3,7 @@ import NavButton from "./nav_button";
 
 const Navbar = (props) => {
     return (
-        <nav className="navbar navbar-expand-lg  pb-4 pt-4">
+        <nav className="navbar navbar-expand-lg fixed-top pb-4 pt-4">
             <div className="container-fluid">
                 <Logo />
 

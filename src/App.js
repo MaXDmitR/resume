@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './styles/app.css';
-import Navbar from "./components/navbar";
+import Navbar from "./components/heading/navbar";
+import Header from "./components/heading/header";
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
 
           ]}/>
       
-      
+      <Header/>
     </div>
   );
 }

@@ -1,0 +1,41 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* займає весь екран */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* обрізає відео так, щоб заповнити весь фон */
+  z-index: -1;
+}
+
+.header-content {
+  position: relative;
+  z-index: 1; /* контент поверх відео */
+  color: white;
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.header-content p {
+  font-size: 1.5rem;
+}
+
+
+.header-content h1{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
