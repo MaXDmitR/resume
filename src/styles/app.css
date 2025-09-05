@@ -12,13 +12,12 @@ body {
 }
 
 .navbar {
-  position: fixed;   /* завжди прикріплений */
+  position: fixed;   
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;     /* перекриває відео та інший контент */
+  z-index: 1000; 
 }
-
 
 .navbar {
     
@@ -36,6 +35,10 @@ body {
 
 }
 
+.navbar .custom-logo:hover {
+    color: rgb(170, 170, 170)
+}
+
 .navbar-nav .nav-link {
     letter-spacing: 1px;
     color: white;
@@ -50,7 +53,7 @@ body {
 
 .navbar-nav .nav-item:nth-child(4) .nav-link {
   border: 2px solid white !important;
-  padding: 6px 8px;  /* відступи для рамки */
+  padding: 6px 8px;
 }
 
 

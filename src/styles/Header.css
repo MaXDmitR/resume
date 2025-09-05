@@ -1,7 +1,7 @@
 .header {
   position: relative;
   width: 100%;
-  height: 100vh; /* займає весь екран */
+  height: 100vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -14,13 +14,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* обрізає відео так, щоб заповнити весь фон */
+  object-fit: cover;
   z-index: -1;
 }
 
 .header-content {
   position: relative;
-  z-index: 1; /* контент поверх відео */
+  z-index: 1;
   color: white;
   text-align: center;
 }
