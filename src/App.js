@@ -7,10 +7,10 @@ function App() {
   return (
     <div className="App">
       <Navbar buttons ={[
-            {  name: 'Головна', link: '#'},
-            {  name: 'Про мене', link: '#'},
-            {  name: 'Досягнення', link: '#'},
-            {  name: "Зв'язатися", link: '#'}
+            {  name: 'головна', link: '#'},
+            {  name: 'про мене', link: '#'},
+            {  name: 'досягнення', link: '#'},
+            {  name: "зв'язатися", link: '#'}
 
           ]}/>
       

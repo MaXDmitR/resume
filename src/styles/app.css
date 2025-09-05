@@ -1,14 +1,50 @@
-.nav-item:hover {
-    background-color: #ddd;
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .navbar {
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
 
 }
 
-.custom-logo {
-font-size: 2.5rem;  /* більше за стандартне */
-  font-weight: bold;  /* жирний */
+.navbar .custom-logo{
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 15px;
+
+}
+
+.navbar-nav .nav-link {
+    letter-spacing: 1px;
+    color: white;
+    font-size: 1.3rem;
+    margin-right: 15px;
+
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(170, 170, 170)
+}
+
+.navbar-nav .nav-item:nth-child(4) .nav-link {
+  border: 2px solid white !important;
+  padding: 6px 8px;  /* відступи для рамки */
+}
+
+
+.navbar-nav .nav-item:nth-child(4) .nav-link:hover {
+    background-color: white;
+    color: black;
 }
