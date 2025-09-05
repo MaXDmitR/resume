@@ -1,8 +1,9 @@
 import React from "react";
 import "../../styles/Body.css";
+import PortfCard from "./portfCard";
 
 
-const Body = () => {
+const Body = (props) => {
     return (
         <div className="container-fluid cont1">
             <div className="container cont2">
@@ -15,26 +16,21 @@ const Body = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea inventore culpa labore nihil. Ipsa ullam incidunt, dolorem, autem excepturi magni iusto quod consequuntur minima veritatis ipsum a praesentium cupiditate deserunt!</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea inventore culpa labore nihil. Ipsa ullam incidunt, dolorem, autem excepturi magni iusto quod consequuntur minima veritatis ipsum a praesentium cupiditate deserunt!</p>
 
-                {/*<div class="card">
-                    <a href="./4/1.html" class="card-link">
-                        <img class="card-img" src="images/Tasktracker/tacktrecker3.jpg" alt="Багатосторінковий сайт"/>
-                        <h3 class="card-title">TaskTracker</h3>
-                        <p>Лендінг з адаптивною версткою</p>
-                    </a>
-                </div>*/}
+                {props.cards.map((card, index)=>
+                    <PortfCard id={`carousel-${index}`} key={card.title} desc={card.description} link={card.link} title={card.title} images={card.images}></PortfCard>)}
 
-                <div class="card">
-                    <div class="card-link">
+                {/*<div class="card">
+                    <a href="https://github.com/MaXDmitR/Tasktracker" class="card-link">
                         <div id="carousel-tasktracker" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="images/Tasktracker/tacktrecker3.jpg" class="d-block w-100" alt="..."/>
+                                    <img src="images/Tasktracker/tacktrecker3.jpg" class="d-block w-100" alt="..." />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/Tasktracker/tacktrecker2.jpg" class="d-block w-100" alt="..."/>
+                                    <img src="images/Tasktracker/tacktrecker2.jpg" class="d-block w-100" alt="..." />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/Tasktracker/tacktrecker1.jpg" class="d-block w-100" alt="..."/>
+                                    <img src="images/Tasktracker/tacktrecker1.jpg" class="d-block w-100" alt="..." />
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carousel-tasktracker" data-bs-slide="prev">
@@ -47,29 +43,29 @@ const Body = () => {
                             </button>
                         </div>
                         <div class="card-body">
-                        <h3 class="card-title">TaskTracker</h3>
-                        <p>Лендинг з адаптивною версткою</p>
+                            <h3 class="card-title">TaskTracker</h3>
+                            <p>Лендинг з адаптивною версткою</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
 
 
                 <div class="card">
-                    <div class="card-link">
+                    <a href="https://github.com/MaXDmitR/electricity-accounting" class="card-link">
                         <div id="carousel-electricity" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="images/Electricity/electricity6.jpg" class="d-block w-100" alt="..."/>
+                                    <img src="images/Electricity/electricity6.jpg" class="d-block w-100" alt="..." />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/Electricity/electricity7.jpg" class="d-block w-100" alt="..."/>
+                                    <img src="images/Electricity/electricity7.jpg" class="d-block w-100" alt="..." />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/Electricity/electricity8.jpg" class="d-block w-100" alt="..."/>
+                                    <img src="images/Electricity/electricity8.jpg" class="d-block w-100" alt="..." />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/Electricity/electricity4.jpg" class="d-block w-100" alt="..."/>
+                                    <img src="images/Electricity/electricity4.jpg" class="d-block w-100" alt="..." />
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carousel-electricity" data-bs-slide="prev">
@@ -82,15 +78,15 @@ const Body = () => {
                             </button>
                         </div>
                         <div class="card-body">
-                        <h3 class="card-title">Electricity</h3>
-                        <p>Full-stack сайт для обчислення прибутку від сонячної електростанції</p>
+                            <h3 class="card-title">Electricity</h3>
+                            <p>Full-stack сайт для обчислення прибутку від сонячної електростанції</p>
                         </div>
-                    </div>
-                </div>
+                    </a>
+                </div>*/}
 
 
 
-                
+
             </div>
         </div>
     );
