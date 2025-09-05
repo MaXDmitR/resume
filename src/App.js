@@ -2,6 +2,7 @@ import React from "react";
 import './styles/app.css';
 import Navbar from "./components/heading/navbar";
 import Header from "./components/heading/header";
+import Body from "./components/body/body";
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
           ]}/>
       
       <Header/>
+
+      <Body/>
     </div>
   );
 }
