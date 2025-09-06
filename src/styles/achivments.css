@@ -34,7 +34,7 @@
     border-radius: 12px;
     padding: 20px 30px;
     width: 250px;
-    height: 150px;
+    height: 200px;
     cursor: pointer;
     text-align: center;
     transition: all 0.3s ease;
@@ -54,7 +54,7 @@
 }
 
 .subj-card p {
-    font-size: 18px;
+    font-size: 15px;
     color: #777;
 }
 

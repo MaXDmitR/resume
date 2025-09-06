@@ -13,7 +13,23 @@ const QuestionBack = () => {
     if (subject) {
       setCurrentSubject(subject.questions)
     }
-  }
+  
+
+setTimeout(() => {
+      const el = document.getElementById('questions-block');
+      if (!el) return;
+
+      
+      const navbar = document.querySelector('.navbar'); 
+      const navHeight = navbar ? navbar.offsetHeight : 0;
+      const offset = 12; 
+
+      const top = el.getBoundingClientRect().top + window.pageYOffset - navHeight - offset;
+      window.scrollTo({ top, behavior: 'smooth' });
+
+      
+    }, 60);
+  };
 
   return (
     <div className="container-fluid achiv-bg">

@@ -5,7 +5,7 @@ const SubjectCard = (props) => {
     
       <button onClick={() => props.setSubject(props.id)}  className='subj-card'>
         <h3>{props.name}</h3>
-        <p></p>
+        <p>{props.desc}</p>
       </button>
     
   )
