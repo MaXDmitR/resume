@@ -1,8 +1,8 @@
-.cont1 {
+.body-bg {
     background-color: #e2e2e2;
 }
 
-.cont2 {
+.body-content {
     padding: 20px;
     margin: 0px 20px;
     background-color: #f4f4f4;
@@ -13,7 +13,7 @@
 /* Cards */
 /*<---------------->*/
 
-.cont2 {
+.body-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
