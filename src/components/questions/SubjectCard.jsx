@@ -3,9 +3,9 @@ import React from 'react'
 const SubjectCard = (props) => {
   return (
     
-      <button className='subj-card'>
+      <button onClick={() => props.setSubject(props.id)}  className='subj-card'>
         <h3>{props.name}</h3>
-        <p>{props.id}</p>
+        <p></p>
       </button>
     
   )

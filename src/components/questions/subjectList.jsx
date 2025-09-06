@@ -6,7 +6,7 @@ const subjectList = (props) => {
         <div className='subj-wraper'>
 
             {props.info.map(cards =>
-                <SubjectCard key={cards.id} id={cards.id} name={cards.name}></SubjectCard>)}
+                <SubjectCard key={cards.id} id={cards.id} name={cards.name} setSubject={props.setSubject}></SubjectCard>)}
         </div>
     )
 }
