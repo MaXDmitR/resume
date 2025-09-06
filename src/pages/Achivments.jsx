@@ -5,6 +5,7 @@ import QuestionBack from '../components/questions/questionBack'
 const Achivments = () => {
     return (
         <div>
+            
             <QuestionBack />   
         </div>
     )

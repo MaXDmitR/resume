@@ -1,0 +1,31 @@
+.about-container {
+  display: flex;
+  flex-wrap: wrap; /* щоб гарно виглядало на мобільних */
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 140px;
+  margin-bottom: 60px;
+}
+
+.about-photo img {
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #333;
+}

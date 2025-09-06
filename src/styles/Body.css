@@ -8,6 +8,39 @@
     background-color: #f4f4f4;
 }
 
+.portfolio-section {
+  margin-top: 60px;
+}
+
+.portfolio-section h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.portfolio-section p {
+    font-size: 23px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Відгуки */
+.testimonial {
+  background: #f9f9f9;
+  border-left: 4px solid #007bff;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.testimonial span {
+  font-size: 0.9rem;
+  color: #555;
+  font-weight: bold;
+}
 
 /*<---------------->*/
 /* Cards */
@@ -69,3 +102,8 @@
     width: 100%;
     object-fit: cover;
 }
+
+
+
+
+

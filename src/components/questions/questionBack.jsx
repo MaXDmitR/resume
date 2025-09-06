@@ -34,6 +34,7 @@ setTimeout(() => {
   return (
     <div className="container-fluid achiv-bg">
       <div className="container achiv-content">
+        
         <SubjectList info={Questions} setSubject={handleSubjectClick}/>
         <QuestionList info={currentSubject} />
       </div>
