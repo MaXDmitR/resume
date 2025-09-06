@@ -1,0 +1,21 @@
+.achiv-bg{
+    height: 100vh;
+    background-color: #e2e2e2;
+    
+}
+
+.achiv-content{
+    height: 100vh;
+    padding: 20px;
+    margin: 0px 20px;
+    background-color: #f4f4f4;
+}
+
+.subj-wraper{
+    margin-top: 100px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    
+}

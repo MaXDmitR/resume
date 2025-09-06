@@ -1,12 +1,13 @@
 import React from 'react'
+import '../styles/achivments.css'
+import QuestionBack from '../components/questions/questionBack'
 
 const Achivments = () => {
-  return (
-    <div className="container mt-5">
-      <h1>Досягнення</h1>
-      <p>2500 питань</p>
-    </div>
-  )
+    return (
+        <div>
+            <QuestionBack />   
+        </div>
+    )
 }
 
 export default Achivments
