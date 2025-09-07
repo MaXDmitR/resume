@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/Body.css";
 import PortfCard from "./portfCard";
+import Stats from "./Stats";
 
 
 const Body = (props) => {
@@ -11,7 +12,7 @@ const Body = (props) => {
 
                 <div className="portfolio-section  mb-5">
                     <div className="row">
-                        
+
                         <div className="col-md-7">
 
                             <p>
@@ -53,7 +54,7 @@ const Body = (props) => {
 
 
 
-
+                <Stats count={props.cards}></Stats>
             </div>
         </div>
     );

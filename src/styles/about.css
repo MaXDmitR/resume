@@ -23,9 +23,8 @@
   margin-bottom: 20px;
 }
 
-.about-text p {
+.about-container p {
   font-size: 1.1rem;
   line-height: 1.6;
-  margin-bottom: 16px;
   color: #333;
 }

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState,} from 'react'
 import SubjectList from './subjectList'
 import Questions from './questions.json';
 import QuestionList from './QuestionList';

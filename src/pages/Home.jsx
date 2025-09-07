@@ -18,6 +18,7 @@ const Home = () => {
                     link: 'https://github.com/MaXDmitR/electricity-accounting',
                     images: ['images/Electricity/electricity6.jpg', 'images/Electricity/electricity7.jpg', 'images/Electricity/electricity8.jpg', 'images/Electricity/electricity4.jpg']
                 },
+                
             ]} />
         </div>
     )

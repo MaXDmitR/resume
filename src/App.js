@@ -26,7 +26,7 @@ function App() {
           { name: 'головна', link: '/' },
           { name: 'про мене', link: '/about' },
           { name: 'досягнення', link: '/achivments' },
-          { name: "зв'язатися", link: '/contact' }
+          { name: "зв'язатися", link: 'https://t.me/Max_Dmitrenko' }
 
         ]} />
 
@@ -34,8 +34,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/achivments" element={<Achivments />} />
+          {/*<Route path="/contact" element={<Contact />} />*/}
         </Routes>
 
         {/* Футер */}
