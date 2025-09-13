@@ -158,3 +158,30 @@
 .stats-box span.animate {
   animation: bounce 0.4s ease;
 }
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card .carousel-inner {
+        height: 200px;
+    }
+
+    .stats-box {
+        padding: 15px 15px;
+        border-radius: 15px;
+    }
+
+    .stats-box h3 {
+        color: red;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .stats-box span {
+        font-size: 1.5rem;
+    }
+}

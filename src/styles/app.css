@@ -81,3 +81,27 @@ body {
   opacity: 1;
   transform: scale(1.1);
 }
+ @media (max-width: 768px) {
+    .toggler {
+        color: white;
+    }
+    .navbar-nav .nav-link {
+        padding-left: 7px;
+        font-size: 1rem;
+        margin-right: 10px;
+    }
+    .navbar .custom-logo {
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+    .navbar-nav .nav-item:nth-child(4) .nav-link {
+        padding: 4px 6px;
+        font-size: 1rem;
+    }
+    .scroll-to-top-btn {
+        font-size: 2rem;
+        bottom: 20px;
+        right: 20px;
+    }
+
+}
