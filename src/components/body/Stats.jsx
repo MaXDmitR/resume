@@ -8,7 +8,7 @@ const Stats = (props) => {
     if (counterRef.current) {
       counterAnimation(counterRef.current, props.count.length, 2000); 
     }
-  }, []);
+  }, [props.count.length]);
 
   return (
     <div className="stats-box">
