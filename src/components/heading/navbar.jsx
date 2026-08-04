@@ -10,8 +10,6 @@ import scrollToTop from '../../scripts/scrollToTop';
 
 const Navbar = (props) => {
 
-
-
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {

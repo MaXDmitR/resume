@@ -11,7 +11,6 @@ import Footer from "./components/footer/footer";
 
 //сторінки
 import About from "./pages/About";
-import Contact from "./pages/Contacts.jsx";
 import Achivments from "./pages/Achivments";
 import Home from "./pages/Home.jsx";
 
@@ -35,7 +34,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/achivments" element={<Achivments />} />
-          {/*<Route path="/contact" element={<Contact />} />*/}
+      
         </Routes>
 
         {/* Футер */}

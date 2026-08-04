@@ -51,9 +51,6 @@ const Body = (props) => {
                     <PortfCard id={`carousel-${index}`} key={card.title} desc={card.description} link={card.link} title={card.title} images={card.images}></PortfCard>)}
 
 
-
-
-
                 <Stats count={props.cards}></Stats>
             </div>
         </div>
